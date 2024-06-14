@@ -1,0 +1,43 @@
+- conversion, ubaciti sve
+- skratiti ifove za optionale ***
+- paginacija i search ***
+- spajanje front i back
+- security
+
+
+- query na backu ***
+- odvojeni handleri za search, edit, add ***
+- nakon odvajanja handlera, obrisati async await i proveriti - bez ovog nece da updateuje odmah
+
+-vidi za pageable na backu
+
+
+- proveriti da li treba praviti zaseban tip za edit/add ili staviti opciono genres i genreIds
+- query izmeniti da filtrira prazan niz prvih slova
+- proveri sta je s formom za edit, editMovie nema nista sem genreIds
+   
+
+    {
+        "id": "20dba6bc-5a86-4b8b-be66-f97414d1a2b5",
+        "name": "action"
+    },
+    {
+        "id": "11618b79-83b3-4264-bc60-9ed1f33c330a",
+        "name": "comedy"
+    },
+    {
+        "id": "9ce40c2e-c75a-4b04-b003-a83394a1c321",
+        "name": "drama"
+    },
+    {
+        "id": "801b8f10-6117-4162-bab1-cdbce8e322e8",
+        "name": "sci-fi"
+    },
+    {
+        "id": "4c8ebdeb-16d3-42d3-bdbe-f04094737433",
+        "name": "horror"
+    },
+    {
+        "id": "86f819e7-1f97-433e-80a2-015fe2026828",
+        "name": "crime"
+    }

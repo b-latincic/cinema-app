@@ -1,0 +1,5 @@
+strukture podataka, heap, stack
+
+Design patterns: https://refactoring.guru/
+
+GIT - important
